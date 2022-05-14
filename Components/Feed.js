@@ -1,11 +1,13 @@
 import React from 'react'
+import Posts from './Posts'
 import Stories from './Stories'
 
 const Feed = () => {
   return (
     <div>
         <section>
-        <Stories/>
+            <Stories/>
+            <Posts/>
         </section>
         <section>
 
