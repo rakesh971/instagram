@@ -20,7 +20,7 @@ const Suggestions = () => {
             <button className='text-gary-600 font-semibold'>See all</button>
         </div>
         {suggestions.map(suggestion=>(
-            <div className='flex items-center justify-between mt-3'>
+            <div className='flex items-center justify-between mt-3'key ={suggestion.jobTitle}>
                  <img
                     className="h-10 rounded-full border p-[2px]"
                     src={`https://i.pravatar.cc/150?img=${Math.ceil(
